@@ -76,3 +76,20 @@ main{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (max-width: 327px){
+    main{
+        gap: 1rem;
+    }
+    .qr-container{
+        width: 300px;
+    }
+
+    .more-pad > h1{
+        font-size: 20px;
+    }
+
+    .more-pad > p{
+        font-size: 14px;
+    }
+}
