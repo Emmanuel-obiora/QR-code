@@ -6,10 +6,17 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+}
+
 body{
     background: var(--Light-gray);
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    display: grid;
+    min-height: 100%;
+    margin: 0;
 }
 
 :root{
@@ -25,8 +32,6 @@ main{
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    width: 100%;
-    height: 100vh;
 }
 
 .qr-container{
@@ -69,6 +74,10 @@ main{
     color: var(--Grayish-blue);
 }
 
+footer{
+    padding: .5rem;
+    margin-top: auto;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
